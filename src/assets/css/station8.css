@@ -1,18 +1,18 @@
 
-div.container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-div.card {
+.card {
     padding : 10px ;
     background-color : #fff ;
 }
-p.card__title {
+.card__title {
     color: #282828;
     font-size: 14px;
 }
-p.card__description {
+.card__description {
     color: #282828;
     font-size: 12px;   
 }
