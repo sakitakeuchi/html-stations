@@ -17,7 +17,7 @@ function buildFullName(data) {
     //data.map(obj => {
     //    let rData = {}
         data.id              = data.id
-        data.full_name       = data.first_name + data.family_name
+        data.full_name       = data.family_name + ' ' + data.first_name
         data.first_name      = data.first_name
         data.family_name     = data.family_name
         data.affilication    = data.affilication
