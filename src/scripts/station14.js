@@ -15,15 +15,15 @@ function buildFullName(data) {
     // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装すること
 
     //data.map(obj => {
-        let rData = {}
-        rData[data.id]              = data.id
-        rData[data.full_name]       = data.first_name + data.family_name
-        rData[data.first_name]      = data.first_name
-        rData[data.family_name]     = data.family_name
-        rData[data.affilication]    = data.affilication
-        rData[data.is_student]      = data.is_student
+    //    let rData = {}
+        data.id              = data.id
+        data.full_name       = data.first_name + data.family_name
+        data.first_name      = data.first_name
+        data.family_name     = data.family_name
+        data.affilication    = data.affilication
+        data.is_student      = data.is_student
 
-        return rData
+        return data
     //})
 }
 
